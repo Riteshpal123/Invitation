@@ -1,0 +1,344 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #fefaf6;
+  color: #1b1f3b;
+}
+
+.container {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+}
+
+header {
+   /* Deep navy */
+  color: white;
+  padding: 2rem 1rem;
+  text-align: center;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+/* Headings */
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #052659;
+  margin: 0;
+}
+
+h2 {
+  font-size: 1.25rem;
+  color: #7B1FA2;
+  margin-top: 0.5rem;
+  font-weight: normal;
+}
+
+h3 {
+  color: #0d47a1;
+  margin: 0.5rem 0;
+}
+
+/* Section Title */
+.section-title {
+  color: #0d47a1;
+  font-size: 1.8rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/* Buttons */
+button {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  background: #7b1fa2;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 2rem;
+}
+
+button:hover {
+  background: #5e1788;
+}
+
+
+/* Retiree Photo */
+.retiree-photo {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  padding: 5px;
+  background: linear-gradient(135deg, #7b1fa2, #e040fb);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.25);
+}
+
+
+/* Invitation Card */
+.invitation-card {
+  background: #fff4d8;
+  padding: 1.5rem;
+  border-radius: 12px;
+  margin: 1.5rem 0;
+}
+
+/* Video Section */
+.video-section {
+  margin-top: 2rem;
+}
+
+.video-player {
+  width: 100%;
+  max-height: 550px; /* or try 300px, adjust as needed */
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover; /* crop to fit nicely */
+}
+
+
+/* Map Section */
+.map-section {
+  margin-top: 2rem;
+}
+
+/* Intro Video Overlay */
+#intro-overlay {
+  position: fixed;
+  top: 0; left: 0; width: 100%;
+  height: 100%;
+  background: black;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#intro-video {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+#play-button {
+  position: absolute;
+  bottom: 40px;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 12px 24px;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Event Card */
+.event-card {
+  background: #fff6f0;
+  padding: 2rem;
+  border-radius: 15px;
+  max-width: 900px;
+  margin: 2rem auto;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Card Layout */
+.card-row {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.card {
+  background: #ffe4d1;
+  padding: 1.5rem;
+  border-radius: 12px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.card h3 {
+  color: #8b4513;
+}
+
+.card p {
+  color: #4a2d00;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 0.5rem;
+}
+#timer {
+  font-size: 1.8rem; /* Increase size */
+  color: #f2f6f8; /* Example: Gold color */
+  font-weight: bold;
+  text-align: center;
+  margin-top: 1rem;
+   
+}
+.countdown-heading {
+  font-size: 1.5rem;
+  color: #370ada; /* Change to gold or any color you like */
+  font-weight: 600;
+  margin-top: 1rem;
+}
+.invite-text {
+  font-size: 2rem; /* or try 2.5rem or 32px */
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.invite-message {
+  font-size: 1.2rem; /* or try 1.5rem or 24px */
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.rsvp-section {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.rsvp-section h3 {
+  font-size: 1.5rem;
+  color: #7B1FA2;
+  margin-bottom: 1rem;
+}
+
+.rsvp-section input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 250px;
+  margin-right: 10px;
+}
+
+.rsvp-section button {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  background: #7b1fa2;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.rsvp-section button:hover {
+  background: #5e1788;
+}
+.retiree-card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  padding: 1rem;
+  margin: 2rem auto;
+  max-width: 250px;
+  text-align: center;
+}
+
+.retiree-caption {
+  font-size: 1.2rem;
+  color: #7B1FA2;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+.site-footer {
+  background: #052659;
+  color: white;
+  padding: 1.5rem;
+  text-align: center;
+  margin-top: 3rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+@media (max-width: 600px) {
+  .card-row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .retiree-photo {
+    width: 150px;
+    height: 150px;
+  }
+
+  .rsvp-section input {
+    width: 90%;
+    margin-bottom: 10px;
+  }
+
+  button {
+    width: 90%;
+  }
+}
+body {
+  background: url('images/background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+   font-style: italic;
+}
+header.top-section {
+   /* Semi-transparent deep navy */
+  color: white;
+  padding: 3rem 1rem;
+  text-align: center;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  position: relative;
+  z-index: 10;
+}
+.invite-message {
+  font-size: 1.1rem;
+  color: #271414;
+  background: rgba(255, 255, 255, 0.5);
+  padding: 1rem;
+  margin: 1rem auto;
+  max-width: 700px;
+  border-radius: 10px;
+  font-style: italic;
+}
+.invite-text {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #d63384; /* Rose pink */
+  background: rgba(255, 255, 255, 0.7);
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  display: inline-block;
+}
+#timer {
+  font-size: 2rem;
+  color: #d86a6a; /* Dark red for visibility */
+  font-weight: bold;
+  text-align: center;
+  margin-top: 1rem;
+  background: rgba(255, 255, 255, 0.75); /* Light semi-transparent background */
+  padding: 0.5rem 1rem;
+  border-radius: 12px;
+  display: inline-block;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+@media (max-width: 768px) {
+  #timer {
+    font-size: 1.5rem;
+  }
+}
+
+/* For mobile devices */
+@media (max-width: 480px) {
+  #timer {
+    font-size: 1.3rem;
+  }
+}

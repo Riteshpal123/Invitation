@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Retirement Invitation</title>
+ <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+
+  <header class="top-section">
+<h1>Retirement Celebration of My Father</h1>
+  <p class="invite-text">🎉🎉 You are invited 🎉🎉</p>
+
+<p class="invite-message">
+  "After decades of hard work and heartfelt service, 
+  it's time to celebrate the well-earned retirement of Shri PremChand Pal."
+</p>
+
+   <div class="countdown">
+        <h3 class="countdown-heading">Countdown to Celebration</h3>
+
+        <div id="timer">
+          <span id="days">00</span> Days
+          <span id="hours">00</span> Hours
+          <span id="minutes">00</span> Minutes
+          <span id="seconds">00</span> Seconds
+        </div>
+      </div>
+</header>
+  <!-- Intro Video Overlay --><div class="bg-blue-900 text-white py-8 shadow-md rounded-b-xl">
+
+
+  <!-- PUT YOUR EXISTING CONTENT HERE -->
+
+
+  <div id="intro-overlay">
+    <video id="intro-video" playsinline>
+      <source src="videos/intro.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+    <div id="play-button">▶️ Click to Start</div>
+  </div>
+
+  <!-- Main Content -->
+  <div id="main-content" style="display: none;">
+  
+
+
+    <div class="container">
+
+      <audio id="bg-music" loop>
+  <source src="music/bg_music.mp3" type="audio/mpeg" />
+</audio>
+
+
+      <div class="retiree-card">
+  <img src="images/retiree.jpg" alt="Retiree Photo" class="retiree-photo" />
+  <p class="retiree-caption">Shri PremChand Pal</p>
+</div>
+
+
+      <div class="event-card">
+  <h2 class="section-title">Event Details</h2>
+  <div class="card-row">
+    <!-- Date Card -->
+    <div class="card">
+      <img src="calendar.png" alt="Calendar Icon" class="icon" />
+
+      <h3>Date & Time</h3>
+      <p>Sunday, August 3rd, 2025</p>
+      <p>7:00 PM – 11:00 PM</p>
+    </div>
+    <!-- Venue Card -->
+    <div class="card">
+      <img src="location.png" alt="location Icon" class="icon" />
+
+      <h3>Venue</h3>
+      <p>DD Farm House</p>
+      <p>Near Tigri Gol Chakkar, Taj Highway Ghaziabad UP</p>
+    </div>
+  </div>
+</div>
+      <div class="video-section">
+        <h3>Video</h3>
+        <video id="highlightVideo" controls class="video-player">
+
+          <source src="videos/highlights.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+
+      <div class="map-section">
+        <h3>Venue Location</h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.9023846363643!2d77.41121727450998!3d28.632687584075498!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cef76031e6785%3A0xca71b8fd4009e19e!2sDD%20FARMS!5e0!3m2!1sen!2sin!4v1753183216940!5m2!1sen!2sin" 
+        width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+
+      <div class="rsvp-section">
+  <h3>RSVP</h3>
+  <form id="rsvp-form">
+    <input type="text" name="name" placeholder="Enter your name" required />
+    <button type="submit">Submit RSVP</button>
+  </form>
+</div>
+
+    </div>
+  </div>
+</div>
+<footer class="site-footer">
+  <p>Thank you for being part of this special celebration! 💐💐</p>
+
+</footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
