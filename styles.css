@@ -93,10 +93,12 @@ button:hover {
 
 .video-player {
   width: 100%;
-  max-height: 550px; /* or try 300px, adjust as needed */
   height: auto;
+  max-height: 90vh; /* adjust to screen height */
   border-radius: 10px;
-  object-fit: cover; /* crop to fit nicely */
+  object-fit: contain; /* show full video without cropping */
+  display: block;
+  margin: 0 auto;
 }
 
 
